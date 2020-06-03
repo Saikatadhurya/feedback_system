@@ -2,7 +2,7 @@
 $dbs['db_host'] = "localhost";
 $dbs['db_user'] = "root";
 $dbs['db_pass'] = "";
-$dbs['db_name'] = "digital_babu";
+$dbs['db_name'] = "wildwing_citizenfeedback";
 
 foreach($dbs as $key => $value){
 	
