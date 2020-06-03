@@ -1,0 +1,15 @@
+{
+  "short_name": "Digital Babu",
+  "name": "Digital Babu",
+  "icons": [
+    {
+      "src":"assets/image/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#6f2af0",
+  "theme_color": "#6f2af0",
+  "display": "standalone"
+}

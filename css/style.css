@@ -1,0 +1,62 @@
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+    background-color: #efe5fd;
+}
+.navbar-dark {
+     background-color:#6f2af0;
+}
+.dropdown-toggle::after { 
+    content: none; 
+}
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../image/write.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+  }
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+#sticky-footer {
+    flex-shrink: none;
+    background-color: #6f2af0;
+  }
+  div#load_screen {
+    background: #efe5fd;
+    opacity: 1;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+   }
+   
+   div#load_screen > div#loading {
+    color: #000;
+    width: 80%;
+    margin: auto;
+    margin-top: 300px;
+    font-family: 'Open Sans', sans-serif;
+   }
+   
+   #loading > i.fa-spinner {
+    background-color: transparent;
+    color: #28CC9E;
+   }
+   #page {
+     opacity: 0;
+     transition: opacity .5s;
+   }
+   #page.ready {
+     opacity: 1;
+   }	  
+  
